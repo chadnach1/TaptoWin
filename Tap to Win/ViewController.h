@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIAlertViewDelegate> {
+    IBOutlet UILabel *scoreLabel;
+    IBOutlet UILabel *timerLabel;
+    IBOutlet UIButton *tapMeButton;
+    
+    
+    NSInteger count;
+    NSInteger seconds;
+    NSTimer *timer;
+}
+
+- (IBAction)buttonPressed;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6315340318A036E400C63920 /* rectange.png in Resources */ = {isa = PBXBuildFile; fileRef = 6315340218A036E400C63920 /* rectange.png */; };
 		634BB1E7189F4C75004C2E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB1E6189F4C75004C2E68 /* Foundation.framework */; };
 		634BB1E9189F4C75004C2E68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB1E8189F4C75004C2E68 /* CoreGraphics.framework */; };
 		634BB1EB189F4C75004C2E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB1EA189F4C75004C2E68 /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		634BB208189F4C76004C2E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB1EA189F4C75004C2E68 /* UIKit.framework */; };
 		634BB210189F4C76004C2E68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634BB20E189F4C76004C2E68 /* InfoPlist.strings */; };
 		634BB212189F4C76004C2E68 /* Tap_to_WinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB211189F4C76004C2E68 /* Tap_to_WinTests.m */; };
+		634BB21C189F6101004C2E68 /* money.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634BB21B189F6101004C2E68 /* money.jpg */; };
+		634BB21E189F624B004C2E68 /* money1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634BB21D189F624B004C2E68 /* money1.jpg */; };
+		634BB220189F6287004C2E68 /* money2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634BB21F189F6287004C2E68 /* money2.jpg */; };
+		63C1C52A18A034EA0058318E /* money3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63C1C52918A034EA0058318E /* money3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6315340218A036E400C63920 /* rectange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectange.png; sourceTree = "<group>"; };
 		634BB1E3189F4C75004C2E68 /* Tap to Win.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap to Win.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		634BB1E6189F4C75004C2E68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		634BB1E8189F4C75004C2E68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,10 @@
 		634BB20D189F4C76004C2E68 /* Tap to WinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap to WinTests-Info.plist"; sourceTree = "<group>"; };
 		634BB20F189F4C76004C2E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		634BB211189F4C76004C2E68 /* Tap_to_WinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_to_WinTests.m; sourceTree = "<group>"; };
+		634BB21B189F6101004C2E68 /* money.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money.jpg; sourceTree = "<group>"; };
+		634BB21D189F624B004C2E68 /* money1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money1.jpg; sourceTree = "<group>"; };
+		634BB21F189F6287004C2E68 /* money2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money2.jpg; sourceTree = "<group>"; };
+		63C1C52918A034EA0058318E /* money3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +126,11 @@
 				634BB1F6189F4C75004C2E68 /* AppDelegate.m */,
 				634BB1F8189F4C75004C2E68 /* Main.storyboard */,
 				634BB1FB189F4C75004C2E68 /* ViewController.h */,
+				634BB21F189F6287004C2E68 /* money2.jpg */,
+				6315340218A036E400C63920 /* rectange.png */,
+				634BB21D189F624B004C2E68 /* money1.jpg */,
+				634BB21B189F6101004C2E68 /* money.jpg */,
+				63C1C52918A034EA0058318E /* money3.jpg */,
 				634BB1FC189F4C75004C2E68 /* ViewController.m */,
 				634BB1FE189F4C75004C2E68 /* Images.xcassets */,
 				634BB1ED189F4C75004C2E68 /* Supporting Files */,
@@ -228,7 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6315340318A036E400C63920 /* rectange.png in Resources */,
+				634BB21C189F6101004C2E68 /* money.jpg in Resources */,
 				634BB1FF189F4C75004C2E68 /* Images.xcassets in Resources */,
+				63C1C52A18A034EA0058318E /* money3.jpg in Resources */,
+				634BB21E189F624B004C2E68 /* money1.jpg in Resources */,
+				634BB220189F6287004C2E68 /* money2.jpg in Resources */,
 				634BB1F1189F4C75004C2E68 /* InfoPlist.strings in Resources */,
 				634BB1FA189F4C75004C2E68 /* Main.storyboard in Resources */,
 			);
@@ -460,6 +480,7 @@
 				634BB217189F4C76004C2E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634BB218189F4C76004C2E68 /* Build configuration list for PBXNativeTarget "Tap to WinTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				634BB21A189F4C76004C2E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
